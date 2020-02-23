@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.example.culture_nav">
+
+    <dist:module dist:instant="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".FashionActivity"></activity>
+        <activity android:name=".SongsActivity" />
+        <activity android:name=".ArtsActivity" />
+        <activity android:name=".DrinksActivity" />
+        <activity android:name=".FoodLocalActivity" />
+        <activity android:name=".FailActivity" />
+        <activity android:name=".QRActivity" />
+        <activity android:name=".ShopActivity" />
+        <activity android:name=".NavActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FoodActivity" />
+        <activity android:name=".LanguageActivity" />
+        <activity android:name=".MusicActivity" />
+        <activity android:name=".DanceActivity" />
+        <activity android:name=".click_act" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

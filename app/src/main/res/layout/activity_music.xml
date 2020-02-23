@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MusicActivity">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="410dp"
+        android:layout_height="165dp"
+        android:background="#30A4C7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="205dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="40dp"
+        android:text="music"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView9"
+        app:layout_constraintEnd_toEndOf="@+id/imageView9"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/imageView9"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.887" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="403dp"
+        android:layout_height="563dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="    Filipino Folk Music"
+                android:textAlignment="textStart"
+                android:textColor="#534747"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Philippines is located in Southeast Asia and is an incredibly diverse nation in terms of language, religion, ethnicity and geography. The Philippines is the third largest English speaking country in the world with a population of more than 90 million people and an annual growth rate of around 2%, making it one of the most populous and fastest growing countries on Earth. Ethnically, the Philippines is a melting pot. The Filipino is basically of Malay stock with a sprinkling of Chinese, American, Spanish and Arab blood. More recent immigrant groups also live in the country, including the Spanish, Chinese, American and Latin American people. A long history of Western colonial rule, interspersed with the visits of merchants and traders, evolved a people of a unique blend of east and west, both in appearance and culture. The official languages of the Philippines are Filipino and English (Szczepanski, 2012).  Of all the arts, music is regarded as the most universal in its appeal and acceptance. This universality, however, does not mean that music is without individual character. Each country has its own kind of music that embodies the total experience, the collective consciousness of its people. Music, therefore, is the collective expression of the musical genius of a particular people. Such is the case of Philippine music which today is regarded as a unique blending of two great musical traditions – the East and the West. Being innately musical, the Filipinos, from the earliest to contemporary times, have imbibed these traditions and have woven their musical creations along these mainstreams musical thoughts. Through time, Philippine society has witnessed the evolution of music expressed in different forms and stylistic nuances. A people gifted with a strong sense of musicality, the Filipinos turn to music to express their innermost feelings. Hence, every song they sing, every instrument they play, every piece of music they make is a direct, almost spontaneous reflection of their hopes and longings, frustrations and fulfillment, and failures and triumphs. The native arts have suffered a great deal of transformation and fundamental ideas but thanks to a patriotic spirit of renaissance and to the enthusiasm of scholars, something is now done to preserve the few remnants of the old and truly Oriental civilization (Yamio, 2011)."
+                android:textAlignment="textStart"
+                android:textColor="#969696"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

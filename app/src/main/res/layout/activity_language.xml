@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LanguageActivity">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="410dp"
+        android:layout_height="165dp"
+        android:background="#30A4C7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.001" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="174dp"
+        android:layout_height="35dp"
+        android:text="language"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView6"
+        app:layout_constraintEnd_toEndOf="@+id/imageView6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView6" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="404dp"
+        android:layout_height="566dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="    Tagalog"
+                android:textAlignment="textStart"
+                android:textColor="#534747"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tagalog is the only Filipino language that can generally be spoken and understood around almost every part of the country. Mainly spoken in Manila area and neighboring provinces like Batangas, Nueva Ecija, Laguna, Cavite, etc. this language is spoken by around 28 million people in the country."
+                android:textAlignment="textStart"
+                android:textColor="#969696"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="    Cebuano"
+                android:textAlignment="textStart"
+                android:textColor="#534747"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cebuano is the second most spoken native language of Philippines. Majorly articulated in Cebu City and other areas like Butuan, Mindanao, Davao, General Santos City and Cagayan de Oro, around 21 million people are presently using it for discourse."
+                android:textAlignment="textStart"
+                android:textColor="#969696"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="    Ilokano"
+                android:textAlignment="textStart"
+                android:textColor="#534747"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ilocano or Ilokano is a blend of several other languages from different countries like Indonesia, Hawaiian, Malay, Tahitian, Samoan and Chamorro of Guam. Mostly used in the Northern part of the country, Ilocano is crowned to be the third most spoken language here with 9.1 million native speakers."
+                android:textAlignment="textStart"
+                android:textColor="#969696"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="    Waray-Waray"
+                android:textAlignment="textStart"
+                android:textColor="#534747"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Waray is the fifth most spoken regional language of the Philippines. The name waray-waray comes from ‘waray’ means ‘none’ or ‘nothing.’ It is broadly oral in provinces like Biliran, Eastern Samar, Northern Samar and Eastern Visayas. The language is also used in local government, television and, radio broadcast."
+                android:textAlignment="textStart"
+                android:textColor="#969696"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="    Hiligaynon"
+                android:textAlignment="textStart"
+                android:textColor="#534747"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Also known as Ilonggo, Hiligaynon is articulated in Iloilo, Panay Islands, Antique, Bacolod, North and South Cotabato in Mindanao and Aklan. This language is marked by its sweet intonation, and around 9.1 million people speak in all over the country."
+                android:textAlignment="textStart"
+                android:textColor="#969696"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="    Kapampangan"
+                android:textAlignment="textStart"
+                android:textColor="#534747"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pampangan or Kapampangan is spoken in the province of Pampanga, Southern Tarlac, Bataan, Central Luzon. Kapampangan is one of the major languages of the Philippines that is taught formally in schools and universities. The name of the language has been derived from the root word pampang which means ‘river bank.’" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

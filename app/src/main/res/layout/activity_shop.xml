@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShopActivity">
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="418dp"
+        android:layout_height="742dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/brandbackground" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="491dp"
+        android:layout_height="273dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView11"
+        app:layout_constraintEnd_toEndOf="@+id/imageView11"
+        app:layout_constraintHorizontal_bias="0.363"
+        app:layout_constraintStart_toStartOf="@+id/imageView11"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/b1" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="425dp"
+        android:layout_height="275dp"
+        android:background="#A13C8FB3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView11"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView11"
+        app:layout_constraintTop_toTopOf="@+id/imageView11"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/local" />
+
+    <ScrollView
+        android:layout_width="412dp"
+        android:layout_height="473dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="142dp"
+                android:background="@drawable/c1"
+                android:fontFamily="sans-serif-thin"
+                android:lineSpacingExtra="10sp"
+                android:text="f o o d s"
+                android:textAllCaps="false"
+                android:textColor="#F5EEEE"
+                android:textSize="55sp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="142dp"
+                android:background="@drawable/c4"
+                android:fontFamily="sans-serif-thin"
+                android:lineSpacingExtra="10sp"
+                android:text="d r i n k s"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="55sp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="142dp"
+                android:background="@drawable/c5"
+                android:fontFamily="sans-serif-thin"
+                android:lineSpacingExtra="10sp"
+                android:text="f a s h i o n"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="55sp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="142dp"
+                android:background="@drawable/c2"
+                android:fontFamily="sans-serif-thin"
+                android:lineSpacingExtra="10sp"
+                android:text="s o n g s"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="55sp" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="142dp"
+                android:background="@drawable/c3"
+                android:fontFamily="sans-serif-thin"
+                android:lineSpacingExtra="10sp"
+                android:text="a r t s"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="55sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
